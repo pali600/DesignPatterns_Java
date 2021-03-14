@@ -1,1 +1,1 @@
-# DesignPatterns_Java
+# Design Patterns in Java Udemy course sources
