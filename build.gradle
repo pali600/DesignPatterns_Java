@@ -43,6 +43,13 @@ dependencies {
     implementation group: 'org.reflections', name: 'reflections', version: '0.9.12'
     // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava
     implementation group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.21'
+    // https://mvnrepository.com/artifact/org.springframework/spring-core
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.4'
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.4'
+    // https://mvnrepository.com/artifact/org.springframework.statemachine/spring-statemachine-core
+    implementation group: 'org.springframework.statemachine', name: 'spring-statemachine-core', version: '2.4.0'
+
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
