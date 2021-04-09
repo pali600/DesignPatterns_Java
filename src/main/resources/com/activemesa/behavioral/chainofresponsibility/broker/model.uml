@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.activemesa.behavioral.chainofresponsibility.broker</OriginalElement>
+  <nodes>
+    <node x="61.69241573033719" y="205.0">com.activemesa.behavioral.chainofresponsibility.broker.Event</node>
+    <node x="431.30416666666673" y="0.0">com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument</node>
+    <node x="420.80416666666673" y="228.5">com.activemesa.behavioral.chainofresponsibility.broker.Query</node>
+    <node x="216.74002808988746" y="1053.0">com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier</node>
+    <node x="101.1897471910114" y="441.0">com.activemesa.behavioral.chainofresponsibility.broker.Game</node>
+    <node x="634.95" y="1077.0">com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier</node>
+    <node x="407.24002808988746" y="1210.0">com.activemesa.behavioral.chainofresponsibility.broker.BrokerChainDemo</node>
+    <node x="332.3500000000001" y="887.0">com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier</node>
+    <node x="617.1775280898875" y="584.0">com.activemesa.behavioral.chainofresponsibility.broker.Creature</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Creature" relationship="DEPENDENCY">
+      <point x="-5.6843418860808015E-14" y="52.0" />
+      <point x="455.85" y="1007.0" />
+      <point x="713.678" y="1007.0" />
+      <point x="-14.999528089887463" y="110.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="DEPENDENCY">
+      <point x="-2.808988745073293E-5" y="52.5" />
+      <point x="352.74" y="1184.0" />
+      <point x="599.0" y="1184.0" />
+      <point x="599.0" y="481.5" />
+      <point x="86.50025280898859" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="DEPENDENCY">
+      <point x="-150.0" y="0.0" />
+      <point x="599.0" y="1105.5" />
+      <point x="599.0" y="481.5" />
+      <point x="86.50025280898859" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Game" target="com.activemesa.behavioral.chainofresponsibility.broker.Query" relationship="TO_ONE">
+      <point x="86.5" y="-15.0" />
+      <point x="455.85" y="466.5" />
+      <point x="-69.45416666666677" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Creature" target="com.activemesa.behavioral.chainofresponsibility.broker.Query" relationship="CREATE">
+      <point x="-111.49952808988746" y="-73.0" />
+      <point x="495.0" y="621.5" />
+      <point x="495.0" y="405.5" />
+      <point x="525.304" y="405.5" />
+      <point x="-1.6666666681430797E-4" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Query" target="com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument" relationship="TO_ONE">
+      <point x="15.0" y="-63.5" />
+      <point x="15.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Creature" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="TO_ONE">
+      <point x="4.7191011253744364E-4" y="-110.5" />
+      <point x="728.678" y="553.0" />
+      <point x="187.69" y="553.0" />
+      <point x="2.528089885913687E-4" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier" relationship="GENERALIZATION">
+      <point x="135.99997191011255" y="0.0" />
+      <point x="579.74" y="1105.5" />
+      <point x="579.74" y="1050.0" />
+      <point x="511.5" y="1050.0" />
+      <point x="55.64999999999992" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Creature" relationship="DEPENDENCY">
+      <point x="14.99997191011255" y="-52.5" />
+      <point x="367.74" y="1007.0" />
+      <point x="713.678" y="1007.0" />
+      <point x="-14.999528089887463" y="110.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Creature" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="DEPENDENCY">
+      <point x="-111.49952808988746" y="0.0" />
+      <point x="599.0" y="694.5" />
+      <point x="599.0" y="481.5" />
+      <point x="86.50025280898859" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Game" target="com.activemesa.behavioral.chainofresponsibility.broker.Event" relationship="TO_ONE">
+      <point x="20.002668539325782" y="-40.5" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Creature" target="com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument" relationship="DEPENDENCY">
+      <point x="4.7191011253744364E-4" y="110.5" />
+      <point x="728.678" y="1022.0" />
+      <point x="857.678" y="1022.0" />
+      <point x="857.678" y="420.5" />
+      <point x="388.0" y="420.5" />
+      <point x="388.0" y="75.5" />
+      <point x="-94.00016666666681" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="TO_ONE">
+      <point x="-5.6843418860808015E-14" y="-52.0" />
+      <point x="455.85" y="553.0" />
+      <point x="187.69" y="553.0" />
+      <point x="2.528089885913687E-4" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Creature" relationship="DEPENDENCY">
+      <point x="-150.0" y="-21.0" />
+      <point x="617.0" y="1084.5" />
+      <point x="617.0" y="1007.0" />
+      <point x="713.678" y="1007.0" />
+      <point x="-14.999528089887463" y="110.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Game" target="com.activemesa.behavioral.chainofresponsibility.broker.Event" relationship="CREATE">
+      <point x="35.00266853932578" y="-40.5" />
+      <point x="15.0" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Query" target="com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument" relationship="DEPENDENCY">
+      <point x="-104.50016666666681" y="0.0" />
+      <point x="388.0" y="292.0" />
+      <point x="388.0" y="75.5" />
+      <point x="-94.00016666666681" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier" relationship="GENERALIZATION">
+      <point x="-50.450000000000045" y="-28.5" />
+      <point x="734.5" y="1050.0" />
+      <point x="511.5" y="1050.0" />
+      <point x="55.64999999999992" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument" target="com.activemesa.behavioral.chainofresponsibility.broker.Query" relationship="INNER_CLASS">
+      <point x="0.0" y="75.5" />
+      <point x="0.0" y="-63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.BrokerChainDemo" target="com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier" relationship="CREATE">
+      <point x="90.0" y="15.0" />
+      <point x="784.95" y="1265.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.BrokerChainDemo" target="com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier" relationship="CREATE">
+      <point x="-90.0" y="0.0" />
+      <point x="337.74" y="1250.5" />
+      <point x="-15.00002808988745" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Query" relationship="DEPENDENCY">
+      <point x="87.72799999999995" y="-28.5" />
+      <point x="872.678" y="405.5" />
+      <point x="525.304" y="405.5" />
+      <point x="-1.6666666681430797E-4" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Query" relationship="DEPENDENCY">
+      <point x="-86.05002808988746" y="-52.5" />
+      <point x="266.69" y="621.5" />
+      <point x="495.0" y="621.5" />
+      <point x="495.0" y="405.5" />
+      <point x="525.304" y="405.5" />
+      <point x="-1.6666666681430797E-4" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.BrokerChainDemo" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="CREATE">
+      <point x="-2.808988745073293E-5" y="-40.5" />
+      <point x="497.24" y="1184.0" />
+      <point x="599.0" y="1184.0" />
+      <point x="599.0" y="481.5" />
+      <point x="86.50025280898859" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.DoubleAttackModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument" relationship="DEPENDENCY">
+      <point x="-2.808988745073293E-5" y="-52.5" />
+      <point x="352.74" y="1022.0" />
+      <point x="857.678" y="1022.0" />
+      <point x="857.678" y="420.5" />
+      <point x="388.0" y="420.5" />
+      <point x="388.0" y="75.5" />
+      <point x="-94.00016666666681" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.BrokerChainDemo" target="com.activemesa.behavioral.chainofresponsibility.broker.Creature" relationship="CREATE">
+      <point x="89.99997191011255" y="0.0" />
+      <point x="617.0" y="1250.5" />
+      <point x="617.0" y="1007.0" />
+      <point x="713.678" y="1007.0" />
+      <point x="-14.999528089887463" y="110.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Creature" relationship="TO_ONE">
+      <point x="14.999999999999943" y="-52.0" />
+      <point x="470.85" y="679.5" />
+      <point x="-111.5" y="-15.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.CreatureModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Game" relationship="DEPENDENCY">
+      <point x="123.49999999999994" y="0.0" />
+      <point x="599.0" y="939.0" />
+      <point x="599.0" y="481.5" />
+      <point x="86.50025280898859" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.chainofresponsibility.broker.IncreasedDefenseModifier" target="com.activemesa.behavioral.chainofresponsibility.broker.Query.Argument" relationship="DEPENDENCY">
+      <point x="0.0" y="-28.5" />
+      <point x="784.95" y="1022.0" />
+      <point x="857.678" y="1022.0" />
+      <point x="857.678" y="420.5" />
+      <point x="388.0" y="420.5" />
+      <point x="388.0" y="75.5" />
+      <point x="-94.00016666666681" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="473.5" y="645.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

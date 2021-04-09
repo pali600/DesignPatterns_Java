@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/memento</OriginalElement>
+  <nodes>
+    <node x="375.5416666666667" y="0.0">com.activemesa.behavioral.memento.Memento</node>
+    <node x="0.0" y="131.0">com.activemesa.behavioral.memento.exercise.Memento</node>
+    <node x="300.7916666666667" y="131.0">com.activemesa.behavioral.memento.BankAccount</node>
+    <node x="71.95833333333333" y="0.0">com.activemesa.behavioral.memento.exercise.Token</node>
+    <node x="359.0416666666667" y="334.0">com.activemesa.behavioral.memento.MementoDemo</node>
+    <node x="52.791666666666686" y="264.0">com.activemesa.behavioral.memento.exercise.TokenMachine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.memento.BankAccount" target="com.activemesa.behavioral.memento.Memento" relationship="CREATE">
+      <point x="3.3333333328755543E-4" y="-75.5" />
+      <point x="389.792" y="106.0" />
+      <point x="439.542" y="106.0" />
+      <point x="3.3333333328755543E-4" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.memento.exercise.TokenMachine" target="com.activemesa.behavioral.memento.exercise.Memento" relationship="CREATE">
+      <point x="-76.29166666666669" y="-75.5" />
+      <point x="0.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.memento.exercise.TokenMachine" target="com.activemesa.behavioral.memento.exercise.Token" relationship="CREATE">
+      <point x="43.16666666666663" y="-75.5" />
+      <point x="197.45833333333331" y="40.5" />
+      <point x="53.999999999999986" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.memento.MementoDemo" target="com.activemesa.behavioral.memento.BankAccount" relationship="CREATE">
+      <point x="-49.75" y="-40.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.memento.exercise.Memento" target="com.activemesa.behavioral.memento.exercise.Token" relationship="TO_MANY">
+      <point x="0.0" y="-40.5" />
+      <point x="78.0" y="106.0" />
+      <point x="125.958" y="106.0" />
+      <point x="-3.33333333330188E-4" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.memento.MementoDemo" target="com.activemesa.behavioral.memento.Memento" relationship="DEPENDENCY">
+      <point x="56.75033333333329" y="-40.5" />
+      <point x="496.292" y="106.0" />
+      <point x="439.542" y="106.0" />
+      <point x="3.3333333328755543E-4" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.memento.exercise.TokenMachine" target="com.activemesa.behavioral.memento.exercise.Token" relationship="TO_MANY">
+      <point x="19.208333333333314" y="-75.5" />
+      <point x="173.5" y="106.0" />
+      <point x="125.958" y="106.0" />
+      <point x="-3.33333333330188E-4" y="40.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="260.5" y="207.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

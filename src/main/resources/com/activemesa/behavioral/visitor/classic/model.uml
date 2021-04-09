@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/visitor/classic</OriginalElement>
+  <nodes>
+    <node x="70.33333333333334" y="0.0">com.activemesa.behavioral.visitor.classic.Expression</node>
+    <node x="81.85129310344828" y="325.0">com.activemesa.behavioral.visitor.classic.ExpressionVisitor</node>
+    <node x="0.0" y="459.0">com.activemesa.behavioral.visitor.classic.DoubleExpression</node>
+    <node x="214.32255747126436" y="829.0">com.activemesa.behavioral.visitor.classic.ClassicVisitorDemo</node>
+    <node x="344.5589080459771" y="637.5">com.activemesa.behavioral.visitor.classic.ExpressionCalculator</node>
+    <node x="212.00646551724142" y="143.0">com.activemesa.behavioral.visitor.classic.AdditionExpression</node>
+    <node x="112.55890804597706" y="626.0">com.activemesa.behavioral.visitor.classic.ExpressionPrinter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.classic.DoubleExpression" relationship="DEPENDENCY">
+      <point x="9.195402293471489E-5" y="-75.5" />
+      <point x="218.559" y="595.0" />
+      <point x="278.0" y="595.0" />
+      <point x="278.0" y="432.0" />
+      <point x="108.0" y="432.0" />
+      <point x="0.0" y="-52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" target="com.activemesa.behavioral.visitor.classic.DoubleExpression" relationship="DEPENDENCY">
+      <point x="-2.931034482855921E-4" y="40.0" />
+      <point x="187.851" y="432.0" />
+      <point x="108.0" y="432.0" />
+      <point x="0.0" y="-52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.DoubleExpression" target="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="-43.649" y="-52.5" />
+      <point x="64.351" y="298.0" />
+      <point x="187.851" y="298.0" />
+      <point x="-2.931034482855921E-4" y="-40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.classic.AdditionExpression" relationship="DEPENDENCY">
+      <point x="9.195402293471489E-5" y="75.5" />
+      <point x="218.559" y="803.0" />
+      <point x="574.059" y="803.0" />
+      <point x="574.059" y="207.0" />
+      <point x="147.49953448275858" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ClassicVisitorDemo" target="com.activemesa.behavioral.visitor.classic.ExpressionPrinter" relationship="CREATE">
+      <point x="-14.999557471264382" y="-40.5" />
+      <point x="72.76409195402292" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" target="com.activemesa.behavioral.visitor.classic.AdditionExpression" relationship="DEPENDENCY">
+      <point x="105.99970689655171" y="0.0" />
+      <point x="574.059" y="365.0" />
+      <point x="574.059" y="207.0" />
+      <point x="147.49953448275858" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.AdditionExpression" target="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="-4.655172414231856E-4" y="64.0" />
+      <point x="359.506" y="298.0" />
+      <point x="187.851" y="298.0" />
+      <point x="-2.931034482855921E-4" y="-40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionCalculator" target="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" relationship="REALIZATION">
+      <point x="-14.999908045977065" y="-64.0" />
+      <point x="435.559" y="611.0" />
+      <point x="319.0" y="611.0" />
+      <point x="319.0" y="380.0" />
+      <point x="105.99970689655171" y="15.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ClassicVisitorDemo" target="com.activemesa.behavioral.visitor.classic.AdditionExpression" relationship="CREATE">
+      <point x="4.4252873561845263E-4" y="-40.5" />
+      <point x="306.323" y="803.0" />
+      <point x="574.059" y="803.0" />
+      <point x="574.059" y="207.0" />
+      <point x="147.49953448275858" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.AdditionExpression" target="com.activemesa.behavioral.visitor.classic.Expression" relationship="TO_ONE">
+      <point x="-139.99999999999997" y="-64.0" />
+      <point x="41.17313218390808" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" relationship="REALIZATION">
+      <point x="-14.999908045977065" y="-75.5" />
+      <point x="203.559" y="611.0" />
+      <point x="319.0" y="611.0" />
+      <point x="319.0" y="380.0" />
+      <point x="105.99970689655171" y="15.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionCalculator" target="com.activemesa.behavioral.visitor.classic.DoubleExpression" relationship="DEPENDENCY">
+      <point x="9.195402293471489E-5" y="-64.0" />
+      <point x="450.559" y="595.0" />
+      <point x="278.0" y="595.0" />
+      <point x="278.0" y="432.0" />
+      <point x="108.0" y="432.0" />
+      <point x="0.0" y="-52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ClassicVisitorDemo" target="com.activemesa.behavioral.visitor.classic.ExpressionCalculator" relationship="CREATE">
+      <point x="45.73635057471273" y="-40.5" />
+      <point x="-98.5" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.DoubleExpression" target="com.activemesa.behavioral.visitor.classic.Expression" relationship="GENERALIZATION">
+      <point x="-58.649" y="-52.5" />
+      <point x="49.351" y="189.5" />
+      <point x="163.333" y="189.5" />
+      <point x="-15.000333333333344" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ClassicVisitorDemo" target="com.activemesa.behavioral.visitor.classic.DoubleExpression" relationship="CREATE">
+      <point x="-91.99955747126435" y="0.0" />
+      <point x="95.059" y="869.5" />
+      <point x="95.059" y="595.0" />
+      <point x="278.0" y="595.0" />
+      <point x="278.0" y="432.0" />
+      <point x="108.0" y="432.0" />
+      <point x="0.0" y="-52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.AdditionExpression" target="com.activemesa.behavioral.visitor.classic.Expression" relationship="GENERALIZATION">
+      <point x="-147.5004655172414" y="0.0" />
+      <point x="196.0" y="207.0" />
+      <point x="196.0" y="189.5" />
+      <point x="163.333" y="189.5" />
+      <point x="-15.000333333333344" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.ExpressionCalculator" target="com.activemesa.behavioral.visitor.classic.AdditionExpression" relationship="DEPENDENCY">
+      <point x="9.195402293471489E-5" y="64.0" />
+      <point x="450.559" y="803.0" />
+      <point x="574.059" y="803.0" />
+      <point x="574.059" y="207.0" />
+      <point x="147.49953448275858" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.classic.Expression" target="com.activemesa.behavioral.visitor.classic.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="-3.3333333334439885E-4" y="40.5" />
+      <point x="178.333" y="298.0" />
+      <point x="187.851" y="298.0" />
+      <point x="-2.931034482855921E-4" y="-40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="301.4999999999999" y="454.99999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

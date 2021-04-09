@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/solid/ocp</OriginalElement>
+  <nodes>
+    <node x="10.5" y="488.0">com.activemesa.solid.ocp.SizeSpecification</node>
+    <node x="670.5" y="488.0">com.activemesa.solid.ocp.ColorSpecification</node>
+    <node x="235.5" y="477.0">com.activemesa.solid.ocp.ProductFilter</node>
+    <node x="200.6344696969697" y="267.5">com.activemesa.solid.ocp.Product</node>
+    <node x="896.5" y="267.0">com.activemesa.solid.ocp.AndSpecification</node>
+    <node x="94.5098484848487" y="0.0">com.activemesa.solid.ocp.Size</node>
+    <node x="563.375378787879" y="11.5">com.activemesa.solid.ocp.Color</node>
+    <node x="1259.5" y="302.5">com.activemesa.solid.ocp.Filter</node>
+    <node x="1215.7087121212123" y="500.0">com.activemesa.solid.ocp.BetterFilter</node>
+    <node x="1068.375378787879" y="70.0">com.activemesa.solid.ocp.Specification</node>
+    <node x="660.1969696969696" y="676.0">com.activemesa.solid.ocp.OCPDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.solid.ocp.AndSpecification" target="com.activemesa.solid.ocp.Specification" relationship="REALIZATION">
+      <point x="0.0" y="64.0" />
+      <point x="1068.0" y="457.0" />
+      <point x="788.0" y="457.0" />
+      <point x="788.0" y="98.5" />
+      <point x="-84.50037878787907" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ProductFilter" target="com.activemesa.solid.ocp.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="63.5" />
+      <point x="442.5" y="640.0" />
+      <point x="-7.0" y="640.0" />
+      <point x="-7.0" y="331.0" />
+      <point x="-100.5004696969697" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.SizeSpecification" target="com.activemesa.solid.ocp.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="52.5" />
+      <point x="113.0" y="640.0" />
+      <point x="-7.0" y="640.0" />
+      <point x="-7.0" y="331.0" />
+      <point x="-100.5004696969697" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ColorSpecification" target="com.activemesa.solid.ocp.Color" relationship="DEPENDENCY">
+      <point x="0.0" y="-52.5" />
+      <point x="773.0" y="436.0" />
+      <point x="644.375" y="436.0" />
+      <point x="-3.7878787895806454E-4" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.AndSpecification" target="com.activemesa.solid.ocp.Specification" relationship="TO_ONE">
+      <point x="84.87537878787907" y="-64.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ProductFilter" target="com.activemesa.solid.ocp.Size" relationship="DEPENDENCY">
+      <point x="-31.0" y="63.5" />
+      <point x="411.5" y="683.5" />
+      <point x="-37.5" y="683.5" />
+      <point x="-37.5" y="98.5" />
+      <point x="-77.4998484848487" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.SizeSpecification" target="com.activemesa.solid.ocp.Specification" relationship="REALIZATION">
+      <point x="0.0" y="-52.5" />
+      <point x="113.0" y="457.0" />
+      <point x="788.0" y="457.0" />
+      <point x="788.0" y="98.5" />
+      <point x="-84.50037878787907" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ProductFilter" target="com.activemesa.solid.ocp.Color" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="442.5" y="436.0" />
+      <point x="644.375" y="436.0" />
+      <point x="-3.7878787895806454E-4" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.SizeSpecification" target="com.activemesa.solid.ocp.Size" relationship="TO_ONE">
+      <point x="-15.0" y="-52.5" />
+      <point x="98.0" y="233.0" />
+      <point x="172.01" y="233.0" />
+      <point x="1.5151515128764004E-4" y="98.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ColorSpecification" target="com.activemesa.solid.ocp.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="52.5" />
+      <point x="773.0" y="640.0" />
+      <point x="-7.0" y="640.0" />
+      <point x="-7.0" y="331.0" />
+      <point x="-100.5004696969697" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.BetterFilter" target="com.activemesa.solid.ocp.Specification" relationship="DEPENDENCY">
+      <point x="2.8787878773073317E-4" y="-40.5" />
+      <point x="1412.709" y="377.0" />
+      <point x="1593.0" y="377.0" />
+      <point x="1593.0" y="98.5" />
+      <point x="84.49962121212093" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ColorSpecification" target="com.activemesa.solid.ocp.Color" relationship="TO_ONE">
+      <point x="-30.0" y="-52.5" />
+      <point x="743.0" y="416.0" />
+      <point x="659.375" y="416.0" />
+      <point x="14.999621212121042" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.Size" relationship="DEPENDENCY">
+      <point x="-14.999969696969629" y="-40.5" />
+      <point x="721.197" y="622.0" />
+      <point x="411.5" y="622.0" />
+      <point x="411.5" y="683.5" />
+      <point x="-37.5" y="683.5" />
+      <point x="-37.5" y="98.5" />
+      <point x="-77.4998484848487" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.Product" relationship="CREATE">
+      <point x="3.0303030371214845E-5" y="-40.5" />
+      <point x="736.197" y="640.0" />
+      <point x="-7.0" y="640.0" />
+      <point x="-7.0" y="331.0" />
+      <point x="-100.5004696969697" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.BetterFilter" relationship="CREATE">
+      <point x="76.0" y="30.0" />
+      <point x="1427.709" y="746.5" />
+      <point x="15.00028787878773" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.SizeSpecification" target="com.activemesa.solid.ocp.Size" relationship="DEPENDENCY">
+      <point x="-15.0" y="52.5" />
+      <point x="98.0" y="622.0" />
+      <point x="411.5" y="622.0" />
+      <point x="411.5" y="683.5" />
+      <point x="-37.5" y="683.5" />
+      <point x="-37.5" y="98.5" />
+      <point x="-77.4998484848487" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.Product" target="com.activemesa.solid.ocp.Size" relationship="TO_ONE">
+      <point x="-4.6969696967380514E-4" y="-63.5" />
+      <point x="301.134" y="233.0" />
+      <point x="172.01" y="233.0" />
+      <point x="1.5151515128764004E-4" y="98.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.ProductFilter" relationship="CREATE">
+      <point x="-76.0" y="-33.0" />
+      <point x="427.5" y="683.5" />
+      <point x="-15.0" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.SizeSpecification" relationship="CREATE">
+      <point x="-76.0" y="0.0" />
+      <point x="-52.5" y="716.5" />
+      <point x="-52.5" y="540.5" />
+      <point x="-102.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.Product" target="com.activemesa.solid.ocp.Color" relationship="DEPENDENCY">
+      <point x="-4.6969696967380514E-4" y="63.5" />
+      <point x="301.134" y="436.0" />
+      <point x="644.375" y="436.0" />
+      <point x="-3.7878787895806454E-4" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.BetterFilter" target="com.activemesa.solid.ocp.Filter" relationship="REALIZATION">
+      <point x="-14.99971212121227" y="-40.5" />
+      <point x="-4.79099999999994" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.AndSpecification" relationship="CREATE">
+      <point x="76.0" y="15.0" />
+      <point x="1083.0" y="731.5" />
+      <point x="15.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.Product" target="com.activemesa.solid.ocp.Color" relationship="TO_ONE">
+      <point x="14.999530303030326" y="63.5" />
+      <point x="316.134" y="416.0" />
+      <point x="659.375" y="416.0" />
+      <point x="14.999621212121042" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.ColorSpecification" target="com.activemesa.solid.ocp.Specification" relationship="REALIZATION">
+      <point x="-15.0" y="-52.5" />
+      <point x="758.0" y="457.0" />
+      <point x="788.0" y="457.0" />
+      <point x="788.0" y="98.5" />
+      <point x="-84.50037878787907" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.Product" target="com.activemesa.solid.ocp.Size" relationship="DEPENDENCY">
+      <point x="-100.5004696969697" y="-15.0" />
+      <point x="-37.5" y="316.0" />
+      <point x="-37.5" y="98.5" />
+      <point x="-77.4998484848487" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.ColorSpecification" relationship="CREATE">
+      <point x="21.80303030303037" y="-40.5" />
+      <point x="-15.0" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.Filter" target="com.activemesa.solid.ocp.Specification" relationship="DEPENDENCY">
+      <point x="143.0" y="0.0" />
+      <point x="1593.0" y="331.0" />
+      <point x="1593.0" y="98.5" />
+      <point x="84.49962121212093" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.OCPDemo" target="com.activemesa.solid.ocp.Color" relationship="DEPENDENCY">
+      <point x="76.00003030303037" y="0.0" />
+      <point x="893.0" y="716.5" />
+      <point x="893.0" y="436.0" />
+      <point x="644.375" y="436.0" />
+      <point x="-3.7878787895806454E-4" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.ocp.BetterFilter" target="com.activemesa.solid.ocp.Product" relationship="DEPENDENCY">
+      <point x="2.8787878773073317E-4" y="40.5" />
+      <point x="1412.709" y="640.0" />
+      <point x="-7.0" y="640.0" />
+      <point x="-7.0" y="331.0" />
+      <point x="-100.5004696969697" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="778.5" y="378.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

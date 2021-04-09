@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/iterator</OriginalElement>
+  <nodes>
+    <node x="413.6087962962963" y="363.0">com.activemesa.behavioral.iterator.ArrayBackedPropertiesDemo</node>
+    <node x="39.11805555555554" y="223.0">com.activemesa.behavioral.iterator.InOrderIterator</node>
+    <node x="34.90046296296296" y="0.0">com.activemesa.behavioral.iterator.Node</node>
+    <node x="399.1087962962963" y="0.0">com.activemesa.behavioral.iterator.Creature</node>
+    <node x="152.27546296296293" y="675.0">com.activemesa.behavioral.iterator.Demo</node>
+    <node x="0.0" y="472.0">com.activemesa.behavioral.iterator.BinaryTree</node>
+    <node x="726.1087962962963" y="0.0">com.activemesa.behavioral.iterator.SimpleCreature</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.iterator.ArrayBackedPropertiesDemo" target="com.activemesa.behavioral.iterator.Creature" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="156.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.Demo" target="com.activemesa.behavioral.iterator.BinaryTree" relationship="CREATE">
+      <point x="-50.66666666666666" y="-40.5" />
+      <point x="177.60879629629625" y="649.0" />
+      <point x="124.0" y="649.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.BinaryTree" target="com.activemesa.behavioral.iterator.Node" relationship="TO_ONE">
+      <point x="-82.66666666666669" y="-75.5" />
+      <point x="41.333333333333314" y="451.0" />
+      <point x="10.166666666666657" y="451.0" />
+      <point x="10.166666666666657" y="203.0" />
+      <point x="34.27546296296293" y="203.0" />
+      <point x="34.27546296296293" y="193.0" />
+      <point x="87.65046296296296" y="193.0" />
+      <point x="-52.75" y="86.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.InOrderIterator" target="com.activemesa.behavioral.iterator.Node" relationship="TO_ONE">
+      <point x="-67.25000000000003" y="-98.5" />
+      <point x="106.36805555555551" y="203.0" />
+      <point x="34.27546296296293" y="203.0" />
+      <point x="34.27546296296293" y="193.0" />
+      <point x="87.65046296296296" y="193.0" />
+      <point x="-52.75" y="86.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.Demo" target="com.activemesa.behavioral.iterator.Node" relationship="CREATE">
+      <point x="50.666666666666686" y="-40.5" />
+      <point x="278.9421296296296" y="649.0" />
+      <point x="326.10879629629625" y="649.0" />
+      <point x="326.10879629629625" y="203.0" />
+      <point x="294.6921296296296" y="203.0" />
+      <point x="294.6921296296296" y="193.0" />
+      <point x="193.15046296296296" y="193.0" />
+      <point x="52.75" y="86.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.InOrderIterator" target="com.activemesa.behavioral.iterator.Node" relationship="DEPENDENCY">
+      <point x="67.24999999999997" y="-98.5" />
+      <point x="240.86805555555551" y="203.0" />
+      <point x="294.6921296296296" y="203.0" />
+      <point x="294.6921296296296" y="193.0" />
+      <point x="193.15046296296296" y="193.0" />
+      <point x="52.75" y="86.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.Demo" target="com.activemesa.behavioral.iterator.InOrderIterator" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="228.27546296296293" y="649.0" />
+      <point x="258.5" y="649.0" />
+      <point x="258.5" y="451.0" />
+      <point x="173.61805555555554" y="451.0" />
+      <point x="0.0" y="98.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.BinaryTree" target="com.activemesa.behavioral.iterator.Node" relationship="DEPENDENCY">
+      <point x="82.66666666666669" y="-75.5" />
+      <point x="206.66666666666669" y="441.0" />
+      <point x="318.61805555555554" y="441.0" />
+      <point x="318.61805555555554" y="203.0" />
+      <point x="294.6921296296296" y="203.0" />
+      <point x="294.6921296296296" y="193.0" />
+      <point x="193.15046296296296" y="193.0" />
+      <point x="52.75" y="86.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.iterator.BinaryTree" target="com.activemesa.behavioral.iterator.InOrderIterator" relationship="CREATE">
+      <point x="-1.4210854715202004E-14" y="-75.5" />
+      <point x="123.99999999999999" y="451.0" />
+      <point x="173.61805555555554" y="451.0" />
+      <point x="0.0" y="98.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="416.5" y="273.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

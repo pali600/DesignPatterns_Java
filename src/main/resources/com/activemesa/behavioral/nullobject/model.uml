@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/nullobject</OriginalElement>
+  <nodes>
+    <node x="0.0" y="635.5">com.activemesa.behavioral.nullobject.ConsoleLog</node>
+    <node x="328.0" y="612.0">com.activemesa.behavioral.nullobject.BankAccount</node>
+    <node x="91.49999999999999" y="0.0">com.activemesa.behavioral.nullobject.dynamic.Log</node>
+    <node x="247.16250000000002" y="813.0">com.activemesa.behavioral.nullobject.NullObjectDemo</node>
+    <node x="164.0" y="635.5">com.activemesa.behavioral.nullobject.NullLog</node>
+    <node x="308.5" y="482.0">com.activemesa.behavioral.nullobject.Log</node>
+    <node x="174.0" y="153.5">com.activemesa.behavioral.nullobject.dynamic.ConsoleLog</node>
+    <node x="338.0" y="153.5">com.activemesa.behavioral.nullobject.dynamic.NullLog</node>
+    <node x="559.3333333333334" y="482.0">com.activemesa.behavioral.nullobject.exercise.Log</node>
+    <node x="716.0" y="636.0">com.activemesa.behavioral.nullobject.exercise.NullLog</node>
+    <node x="0.0" y="130.0">com.activemesa.behavioral.nullobject.dynamic.BankAccount</node>
+    <node x="44.0" y="333.0">com.activemesa.behavioral.nullobject.dynamic.Demo</node>
+    <node x="526.0" y="647.5">com.activemesa.behavioral.nullobject.exercise.Account</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.nullobject.dynamic.ConsoleLog" target="com.activemesa.behavioral.nullobject.dynamic.Log" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="246.0" y="130.0" />
+      <point x="178.5" y="130.0" />
+      <point x="15.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.NullObjectDemo" target="com.activemesa.behavioral.nullobject.NullLog" relationship="CREATE">
+      <point x="-76.0" y="-40.5" />
+      <point x="18.662500000000023" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.ConsoleLog" target="com.activemesa.behavioral.nullobject.Log" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="72.0" y="609.0" />
+      <point x="141.0" y="609.0" />
+      <point x="141.0" y="522.0" />
+      <point x="-72.0" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.dynamic.NullLog" target="com.activemesa.behavioral.nullobject.dynamic.Log" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="410.0" y="130.0" />
+      <point x="178.5" y="130.0" />
+      <point x="15.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.dynamic.BankAccount" target="com.activemesa.behavioral.nullobject.dynamic.Log" relationship="TO_ONE">
+      <point x="69.0" y="-75.5" />
+      <point x="-18.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.dynamic.BankAccount" target="com.activemesa.behavioral.nullobject.dynamic.Log" relationship="DEPENDENCY">
+      <point x="0.0" y="-75.5" />
+      <point x="76.5" y="105.0" />
+      <point x="163.5" y="105.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.dynamic.Demo" target="com.activemesa.behavioral.nullobject.dynamic.BankAccount" relationship="CREATE">
+      <point x="-43.5" y="-52.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.BankAccount" target="com.activemesa.behavioral.nullobject.Log" relationship="DEPENDENCY">
+      <point x="0.0" y="-75.5" />
+      <point x="24.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.exercise.Account" target="com.activemesa.behavioral.nullobject.exercise.Log" relationship="DEPENDENCY">
+      <point x="40.83333333333337" y="-52.5" />
+      <point x="15.0" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.NullObjectDemo" target="com.activemesa.behavioral.nullobject.BankAccount" relationship="CREATE">
+      <point x="73.83749999999998" y="-40.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.exercise.NullLog" target="com.activemesa.behavioral.nullobject.exercise.Log" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="793.5" y="534.0" />
+      <point x="77.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.exercise.Account" target="com.activemesa.behavioral.nullobject.exercise.Log" relationship="TO_ONE">
+      <point x="25.83333333333337" y="-52.5" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.NullLog" target="com.activemesa.behavioral.nullobject.Log" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="236.0" y="609.0" />
+      <point x="141.0" y="609.0" />
+      <point x="141.0" y="522.0" />
+      <point x="-72.0" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.BankAccount" target="com.activemesa.behavioral.nullobject.Log" relationship="TO_ONE">
+      <point x="-24.0" y="-75.5" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.nullobject.dynamic.Demo" target="com.activemesa.behavioral.nullobject.dynamic.Log" relationship="DEPENDENCY">
+      <point x="-76.0" y="0.0" />
+      <point x="-17.5" y="385.0" />
+      <point x="-17.5" y="105.0" />
+      <point x="163.5" y="105.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="426.5" y="283.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

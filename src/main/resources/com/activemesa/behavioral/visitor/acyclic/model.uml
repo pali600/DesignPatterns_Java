@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/visitor/acyclic</OriginalElement>
+  <nodes>
+    <node x="157.96582031249994" y="527.0">com.activemesa.behavioral.visitor.acyclic.ExpressionPrinter</node>
+    <node x="282.7845052083332" y="91.0">com.activemesa.behavioral.visitor.acyclic.ExpressionVisitor</node>
+    <node x="29.489257812499943" y="214.0">com.activemesa.behavioral.visitor.acyclic.DoubleExpressionVisitor</node>
+    <node x="208.6875" y="730.0">com.activemesa.behavioral.visitor.acyclic.AcyclicVisitorDemo</node>
+    <node x="270.48925781249994" y="202.0">com.activemesa.behavioral.visitor.acyclic.Expression</node>
+    <node x="320.7428385416665" y="347.0">com.activemesa.behavioral.visitor.acyclic.AdditionExpression</node>
+    <node x="0.0" y="358.5">com.activemesa.behavioral.visitor.acyclic.DoubleExpression</node>
+    <node x="272.2845052083332" y="0.0">com.activemesa.behavioral.visitor.acyclic.Visitor</node>
+    <node x="474.7845052083332" y="214.0">com.activemesa.behavioral.visitor.acyclic.AdditionExpressionVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" target="com.activemesa.behavioral.visitor.acyclic.Expression" relationship="GENERALIZATION">
+      <point x="-147.49983854166652" y="0.0" />
+      <point x="278.966" y="411.0" />
+      <point x="278.966" y="338.0" />
+      <point x="297.5" y="338.0" />
+      <point x="-50.48925781249994" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AdditionExpressionVisitor" target="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" relationship="DEPENDENCY">
+      <point x="43.458494791666794" y="28.5" />
+      <point x="633.243" y="704.0" />
+      <point x="468.243" y="704.0" />
+      <point x="1.6145833347991356E-4" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" target="com.activemesa.behavioral.visitor.acyclic.AdditionExpressionVisitor" relationship="DEPENDENCY">
+      <point x="121.54166666666674" y="-64.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" target="com.activemesa.behavioral.visitor.acyclic.Visitor" relationship="DEPENDENCY">
+      <point x="1.6145833347991356E-4" y="-64.0" />
+      <point x="468.243" y="315.0" />
+      <point x="11.989" y="315.0" />
+      <point x="11.989" y="-17.5" />
+      <point x="320.285" y="-17.5" />
+      <point x="4.947916668243124E-4" y="-15.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AcyclicVisitorDemo" target="com.activemesa.behavioral.visitor.acyclic.ExpressionPrinter" relationship="CREATE">
+      <point x="-52.22149999999999" y="-40.5" />
+      <point x="-14.999820312499935" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.ExpressionVisitor" target="com.activemesa.behavioral.visitor.acyclic.Expression" relationship="DEPENDENCY">
+      <point x="-20.295247395833258" y="28.5" />
+      <point x="0.0" y="-40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.Expression" target="com.activemesa.behavioral.visitor.acyclic.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="-15.0" y="-40.5" />
+      <point x="-35.29524739583326" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.DoubleExpressionVisitor" target="com.activemesa.behavioral.visitor.acyclic.Visitor" relationship="INTERFACE_GENERALIZATION">
+      <point x="-2.578124999388365E-4" y="-28.5" />
+      <point x="139.989" y="175.0" />
+      <point x="254.785" y="175.0" />
+      <point x="254.785" y="15.5" />
+      <point x="-47.999505208333176" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" relationship="DEPENDENCY">
+      <point x="1.7968750006502887E-4" y="75.5" />
+      <point x="263.966" y="704.0" />
+      <point x="468.243" y="704.0" />
+      <point x="1.6145833347991356E-4" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AdditionExpressionVisitor" target="com.activemesa.behavioral.visitor.acyclic.Visitor" relationship="INTERFACE_GENERALIZATION">
+      <point x="4.947916667106256E-4" y="-28.5" />
+      <point x="589.785" y="175.0" />
+      <point x="254.785" y="175.0" />
+      <point x="254.785" y="15.5" />
+      <point x="-47.999505208333176" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.acyclic.AdditionExpressionVisitor" relationship="REALIZATION">
+      <point x="-72.77832031249994" y="75.5" />
+      <point x="191.1875" y="828.5" />
+      <point x="648.243" y="828.5" />
+      <point x="58.458494791666794" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.DoubleExpression" target="com.activemesa.behavioral.visitor.acyclic.Expression" relationship="GENERALIZATION">
+      <point x="-15.0" y="-52.5" />
+      <point x="84.5" y="338.0" />
+      <point x="297.5" y="338.0" />
+      <point x="-50.48925781249994" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.DoubleExpression" target="com.activemesa.behavioral.visitor.acyclic.Visitor" relationship="DEPENDENCY">
+      <point x="0.0" y="-52.5" />
+      <point x="99.5" y="315.0" />
+      <point x="11.989" y="315.0" />
+      <point x="11.989" y="-17.5" />
+      <point x="320.285" y="-17.5" />
+      <point x="4.947916668243124E-4" y="-15.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" target="com.activemesa.behavioral.visitor.acyclic.Expression" relationship="TO_ONE">
+      <point x="-105.25383854166654" y="-64.0" />
+      <point x="14.999742187500033" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.ExpressionVisitor" target="com.activemesa.behavioral.visitor.acyclic.Visitor" relationship="INTERFACE_GENERALIZATION">
+      <point x="4.947916668243124E-4" y="28.5" />
+      <point x="368.285" y="175.0" />
+      <point x="254.785" y="175.0" />
+      <point x="254.785" y="15.5" />
+      <point x="-47.999505208333176" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.acyclic.DoubleExpression" relationship="DEPENDENCY">
+      <point x="1.7968750006502887E-4" y="-75.5" />
+      <point x="263.966" y="501.0" />
+      <point x="99.5" y="501.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AcyclicVisitorDemo" target="com.activemesa.behavioral.visitor.acyclic.AdditionExpression" relationship="CREATE">
+      <point x="4.999999999881766E-4" y="-40.5" />
+      <point x="301.188" y="704.0" />
+      <point x="468.243" y="704.0" />
+      <point x="1.6145833347991356E-4" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.ExpressionPrinter" target="com.activemesa.behavioral.visitor.acyclic.DoubleExpressionVisitor" relationship="REALIZATION">
+      <point x="-106.0" y="0.0" />
+      <point x="-17.5" y="602.5" />
+      <point x="-17.5" y="242.5" />
+      <point x="-110.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.DoubleExpressionVisitor" target="com.activemesa.behavioral.visitor.acyclic.DoubleExpression" relationship="DEPENDENCY">
+      <point x="76.51074218750006" y="28.5" />
+      <point x="216.5" y="501.0" />
+      <point x="99.5" y="501.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.DoubleExpression" target="com.activemesa.behavioral.visitor.acyclic.DoubleExpressionVisitor" relationship="DEPENDENCY">
+      <point x="40.48925781249994" y="-52.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.Expression" target="com.activemesa.behavioral.visitor.acyclic.Visitor" relationship="DEPENDENCY">
+      <point x="-2.578124999672582E-4" y="40.5" />
+      <point x="347.989" y="315.0" />
+      <point x="11.989" y="315.0" />
+      <point x="11.989" y="-17.5" />
+      <point x="320.285" y="-17.5" />
+      <point x="4.947916668243124E-4" y="-15.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.acyclic.AcyclicVisitorDemo" target="com.activemesa.behavioral.visitor.acyclic.DoubleExpression" relationship="CREATE">
+      <point x="86.27850000000001" y="-40.5" />
+      <point x="387.466" y="501.0" />
+      <point x="99.5" y="501.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="343.5" y="405.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

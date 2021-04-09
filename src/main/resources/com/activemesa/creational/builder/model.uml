@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/creational/builder</OriginalElement>
+  <nodes>
+    <node x="254.5" y="270.0">com.activemesa.creational.builder.facets.PersonAddressBuilder</node>
+    <node x="115.6394230769231" y="0.0">com.activemesa.creational.builder.facets.Person</node>
+    <node x="984.0" y="0.0">com.activemesa.creational.builder.Person</node>
+    <node x="25.74038461538464" y="461.0">com.activemesa.creational.builder.facets.PersonBuilder</node>
+    <node x="952.5" y="178.0">com.activemesa.creational.builder.PersonBuilder</node>
+    <node x="38.0" y="968.0">com.activemesa.creational.builder.excercise.CodeBuilderMain</node>
+    <node x="21.50000000000003" y="270.0">com.activemesa.creational.builder.facets.PersonJobBuilder</node>
+    <node x="0.0" y="790.0">com.activemesa.creational.builder.excercise.CodeBuilder</node>
+    <node x="628.5" y="0.0">com.activemesa.creational.builder.HtmlElement</node>
+    <node x="224.60576923076925" y="664.0">com.activemesa.creational.builder.facets.BuilderFacetsDemo</node>
+    <node x="608.0" y="293.0">com.activemesa.creational.builder.HtmlBuilder</node>
+    <node x="935.0" y="379.0">com.activemesa.creational.builder.EmployeeBuilder</node>
+    <node x="942.5" y="533.0">com.activemesa.creational.builder.RecursiveGenericsDemo</node>
+    <node x="673.0" y="540.0">com.activemesa.creational.builder.BuilderDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.creational.builder.facets.BuilderFacetsDemo" target="com.activemesa.creational.builder.facets.Person" relationship="DEPENDENCY">
+      <point x="93.50023076923071" y="0.0" />
+      <point x="564.0" y="704.5" />
+      <point x="564.0" y="245.0" />
+      <point x="200.639" y="245.0" />
+      <point x="-4.230769230844089E-4" y="110.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.PersonBuilder" target="com.activemesa.creational.builder.Person" relationship="TO_ONE">
+      <point x="15.0" y="-75.5" />
+      <point x="15.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonJobBuilder" target="com.activemesa.creational.builder.facets.Person" relationship="DEPENDENCY">
+      <point x="-2.8421709430404007E-14" y="-63.5" />
+      <point x="128.0" y="245.0" />
+      <point x="200.639" y="245.0" />
+      <point x="-4.230769230844089E-4" y="110.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.excercise.CodeBuilderMain" target="com.activemesa.creational.builder.excercise.CodeBuilder" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonJobBuilder" target="com.activemesa.creational.builder.facets.PersonBuilder" relationship="GENERALIZATION">
+      <point x="-2.8421709430404007E-14" y="63.5" />
+      <point x="128.0" y="429.0" />
+      <point x="130.74" y="429.0" />
+      <point x="-3.846153846325251E-4" y="-75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.EmployeeBuilder" target="com.activemesa.creational.builder.PersonBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonBuilder" target="com.activemesa.creational.builder.facets.PersonJobBuilder" relationship="CREATE">
+      <point x="-17.74038461538464" y="-75.5" />
+      <point x="-15.000000000000028" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonBuilder" target="com.activemesa.creational.builder.facets.PersonAddressBuilder" relationship="CREATE">
+      <point x="105.0" y="-21.0" />
+      <point x="429.1057692307693" y="515.5" />
+      <point x="28.605769230769283" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.RecursiveGenericsDemo" target="com.activemesa.creational.builder.EmployeeBuilder" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.PersonBuilder" target="com.activemesa.creational.builder.Person" relationship="CREATE">
+      <point x="0.0" y="-75.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonBuilder" target="com.activemesa.creational.builder.facets.Person" relationship="TO_ONE">
+      <point x="-105.0" y="0.0" />
+      <point x="-17.5" y="536.5" />
+      <point x="-17.5" y="110.0" />
+      <point x="-85.0" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.HtmlBuilder" target="com.activemesa.creational.builder.HtmlElement" relationship="TO_ONE">
+      <point x="15.0" y="-98.5" />
+      <point x="15.0" y="121.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonAddressBuilder" target="com.activemesa.creational.builder.facets.PersonBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="63.5" />
+      <point x="400.5" y="429.0" />
+      <point x="130.74" y="429.0" />
+      <point x="-3.846153846325251E-4" y="-75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.HtmlBuilder" target="com.activemesa.creational.builder.HtmlElement" relationship="CREATE">
+      <point x="0.0" y="-98.5" />
+      <point x="0.0" y="121.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonAddressBuilder" target="com.activemesa.creational.builder.facets.Person" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="400.5" y="245.0" />
+      <point x="200.639" y="245.0" />
+      <point x="-4.230769230844089E-4" y="110.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.PersonBuilder" target="com.activemesa.creational.builder.facets.Person" relationship="CREATE">
+      <point x="104.99961538461537" y="11.0" />
+      <point x="564.0" y="547.5" />
+      <point x="564.0" y="245.0" />
+      <point x="200.639" y="245.0" />
+      <point x="-4.230769230844089E-4" y="110.0" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.facets.BuilderFacetsDemo" target="com.activemesa.creational.builder.facets.PersonBuilder" relationship="CREATE">
+      <point x="-89.86538461538464" y="-40.5" />
+      <point x="97.5" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.builder.BuilderDemo" target="com.activemesa.creational.builder.HtmlBuilder" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="98.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="449.5" y="283.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

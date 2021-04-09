@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/interpreter</OriginalElement>
+  <nodes>
+    <node x="35.5" y="0.0">com.activemesa.behavioral.interpreter.ExpressionProcessor.NextOp</node>
+    <node x="0.0" y="228.0">com.activemesa.behavioral.interpreter.ExpressionProcessor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.interpreter.ExpressionProcessor" target="com.activemesa.behavioral.interpreter.ExpressionProcessor.NextOp" relationship="DEPENDENCY">
+      <point x="0.0" y="-64.0" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.interpreter.ExpressionProcessor.NextOp" target="com.activemesa.behavioral.interpreter.ExpressionProcessor" relationship="INNER_CLASS">
+      <point x="15.0" y="87.0" />
+      <point x="15.0" y="-64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="97.5" y="15.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

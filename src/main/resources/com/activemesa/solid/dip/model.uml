@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/solid/dip</OriginalElement>
+  <nodes>
+    <node x="0.0" y="367.0">com.activemesa.solid.dip.Relationships</node>
+    <node x="326.806862745098" y="0.0">com.activemesa.solid.dip.Person</node>
+    <node x="403.25" y="547.0">com.activemesa.solid.dip.Research</node>
+    <node x="154.71041666666667" y="131.0">com.activemesa.solid.dip.Relationship</node>
+    <node x="440.75" y="679.0">com.activemesa.solid.dip.DIPDemo</node>
+    <node x="374.7104166666667" y="189.5">com.activemesa.solid.dip.RelationshipBrowser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.solid.dip.Relationships" target="com.activemesa.solid.dip.Relationship" relationship="DEPENDENCY">
+      <point x="171.0" y="-15.0" />
+      <point x="361.0" y="416.0" />
+      <point x="361.0" y="349.5" />
+      <point x="254.71" y="349.5" />
+      <point x="-4.166666666662877E-4" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Relationships" target="com.activemesa.solid.dip.RelationshipBrowser" relationship="REALIZATION">
+      <point x="98.71000000000004" y="-64.0" />
+      <point x="269.71000000000004" y="322.5" />
+      <point x="501.75" y="322.5" />
+      <point x="-2.9604166666666742" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Relationships" target="com.activemesa.solid.dip.Person" relationship="DEPENDENCY">
+      <point x="171.0" y="0.0" />
+      <point x="379.0" y="431.0" />
+      <point x="379.0" y="380.0" />
+      <point x="658.0" y="380.0" />
+      <point x="658.0" y="40.5" />
+      <point x="66.00013725490203" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.RelationshipBrowser" target="com.activemesa.solid.dip.Person" relationship="DEPENDENCY">
+      <point x="129.99958333333336" y="0.0" />
+      <point x="658.0" y="218.0" />
+      <point x="658.0" y="40.5" />
+      <point x="66.00013725490203" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Research" target="com.activemesa.solid.dip.Relationship" relationship="DEPENDENCY">
+      <point x="-113.5" y="-15.0" />
+      <point x="361.0" y="572.0" />
+      <point x="361.0" y="349.5" />
+      <point x="254.71" y="349.5" />
+      <point x="-4.166666666662877E-4" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Research" target="com.activemesa.solid.dip.RelationshipBrowser" relationship="DEPENDENCY">
+      <point x="15.0" y="-40.0" />
+      <point x="27.039583333333326" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Relationships" target="com.activemesa.solid.dip.Relationship" relationship="TO_MANY">
+      <point x="0.0" y="-64.0" />
+      <point x="-83.71041666666667" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.DIPDemo" target="com.activemesa.solid.dip.Person" relationship="CREATE">
+      <point x="-76.0" y="0.0" />
+      <point x="379.0" y="719.5" />
+      <point x="379.0" y="380.0" />
+      <point x="658.0" y="380.0" />
+      <point x="658.0" y="40.5" />
+      <point x="66.00013725490203" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Research" target="com.activemesa.solid.dip.Person" relationship="DEPENDENCY">
+      <point x="-113.5" y="0.0" />
+      <point x="379.0" y="587.0" />
+      <point x="379.0" y="380.0" />
+      <point x="658.0" y="380.0" />
+      <point x="658.0" y="40.5" />
+      <point x="66.00013725490203" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Relationships" target="com.activemesa.solid.dip.Person" relationship="TO_MANY">
+      <point x="-33.789583333333326" y="-64.0" />
+      <point x="137.21041666666667" y="40.5" />
+      <point x="-66.0" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.DIPDemo" target="com.activemesa.solid.dip.Research" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.DIPDemo" target="com.activemesa.solid.dip.Relationships" relationship="CREATE">
+      <point x="76.0" y="0.0" />
+      <point x="647.75" y="719.5" />
+      <point x="647.75" y="521.0" />
+      <point x="171.0" y="521.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.solid.dip.Research" target="com.activemesa.solid.dip.Relationships" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.0" />
+      <point x="516.75" y="521.0" />
+      <point x="171.0" y="521.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="329.0" y="380.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

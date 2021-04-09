@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/observer/oando</OriginalElement>
+  <nodes>
+    <node x="98.71376811594206" y="599.0">com.activemesa.behavioral.observer.oando.ObserverInfrastructureDemo</node>
+    <node x="0.0" y="286.0">com.activemesa.behavioral.observer.oando.Observable</node>
+    <node x="49.663043478260875" y="0.0">com.activemesa.behavioral.observer.oando.PropertyChangedEventArgs</node>
+    <node x="52.663043478260875" y="177.0">com.activemesa.behavioral.observer.oando.Observer</node>
+    <node x="84.5" y="466.0">com.activemesa.behavioral.observer.oando.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.observer.oando.Observer" target="com.activemesa.behavioral.observer.oando.PropertyChangedEventArgs" relationship="DEPENDENCY">
+      <point x="148.49995652173914" y="0.0" />
+      <point x="367.0" y="205.5" />
+      <point x="367.0" y="159.5" />
+      <point x="201.163" y="159.5" />
+      <point x="-4.347826086359419E-5" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.ObserverInfrastructureDemo" target="com.activemesa.behavioral.observer.oando.PropertyChangedEventArgs" relationship="DEPENDENCY">
+      <point x="23.28623188405794" y="-52.0" />
+      <point x="286.5" y="363.0" />
+      <point x="367.0" y="363.0" />
+      <point x="367.0" y="159.5" />
+      <point x="201.163" y="159.5" />
+      <point x="-4.347826086359419E-5" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.ObserverInfrastructureDemo" target="com.activemesa.behavioral.observer.oando.Observer" relationship="REALIZATION">
+      <point x="118.78623188405794" y="-52.0" />
+      <point x="382.0" y="190.5" />
+      <point x="148.5" y="-15.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.Observable" target="com.activemesa.behavioral.observer.oando.PropertyChangedEventArgs" relationship="CREATE">
+      <point x="134.5" y="0.0" />
+      <point x="367.0" y="350.0" />
+      <point x="367.0" y="159.5" />
+      <point x="201.163" y="159.5" />
+      <point x="-4.347826086359419E-5" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.Observable" target="com.activemesa.behavioral.observer.oando.Observer" relationship="DEPENDENCY">
+      <point x="66.66304347826087" y="-64.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.ObserverInfrastructureDemo" target="com.activemesa.behavioral.observer.oando.Person" relationship="CREATE">
+      <point x="-128.71376811594206" y="-52.0" />
+      <point x="0.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.Person" target="com.activemesa.behavioral.observer.oando.Observable" relationship="GENERALIZATION">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.oando.Observable" target="com.activemesa.behavioral.observer.oando.Observer" relationship="TO_MANY">
+      <point x="81.66304347826087" y="-64.0" />
+      <point x="15.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="214.00000000000006" y="351.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

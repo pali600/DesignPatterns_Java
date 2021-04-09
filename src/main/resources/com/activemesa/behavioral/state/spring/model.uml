@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/state/spring</OriginalElement>
+  <nodes>
+    <node x="26.0" y="316.0">com.activemesa.behavioral.state.spring.SpringStatemachineDemo</node>
+    <node x="0.0" y="23.0">com.activemesa.behavioral.state.spring.States</node>
+    <node x="187.0" y="0.0">com.activemesa.behavioral.state.spring.Events</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.state.spring.SpringStatemachineDemo" target="com.activemesa.behavioral.state.spring.States" relationship="DEPENDENCY">
+      <point x="-94.5" y="-52.0" />
+      <point x="0.0" y="110.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.state.spring.SpringStatemachineDemo" target="com.activemesa.behavioral.state.spring.Events" relationship="DEPENDENCY">
+      <point x="94.5" y="-52.0" />
+      <point x="0.0" y="133.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="179.0" y="210.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/visitor/reflective</OriginalElement>
+  <nodes>
+    <node x="183.18382352941168" y="396.0">com.activemesa.behavioral.visitor.reflective.ReflectiveVisitorDemo</node>
+    <node x="139.7230392156862" y="118.5">com.activemesa.behavioral.visitor.reflective.DoubleExpression</node>
+    <node x="195.99999999999997" y="0.0">com.activemesa.behavioral.visitor.reflective.Expression</node>
+    <node x="0.0" y="263.0">com.activemesa.behavioral.visitor.reflective.ExpressionPrinter</node>
+    <node x="358.7230392156862" y="107.0">com.activemesa.behavioral.visitor.reflective.AdditionExpression</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.visitor.reflective.ExpressionPrinter" target="com.activemesa.behavioral.visitor.reflective.AdditionExpression" relationship="DEPENDENCY">
+      <point x="124.5" y="0.0" />
+      <point x="268.0" y="303.5" />
+      <point x="268.0" y="298.0" />
+      <point x="506.223" y="298.0" />
+      <point x="-3.9215686172155984E-5" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.ReflectiveVisitorDemo" target="com.activemesa.behavioral.visitor.reflective.ExpressionPrinter" relationship="DEPENDENCY">
+      <point x="-43.68382352941171" y="-40.5" />
+      <point x="117.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.ExpressionPrinter" target="com.activemesa.behavioral.visitor.reflective.Expression" relationship="DEPENDENCY">
+      <point x="-15.0" y="-40.5" />
+      <point x="109.5" y="28.5" />
+      <point x="-63.50000000000003" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.ExpressionPrinter" target="com.activemesa.behavioral.visitor.reflective.DoubleExpression" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="124.5" y="237.0" />
+      <point x="239.223" y="237.0" />
+      <point x="-3.921568620057769E-5" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.AdditionExpression" target="com.activemesa.behavioral.visitor.reflective.Expression" relationship="TO_ONE">
+      <point x="14.999960784313771" y="-52.0" />
+      <point x="521.223" y="28.5" />
+      <point x="63.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.ReflectiveVisitorDemo" target="com.activemesa.behavioral.visitor.reflective.DoubleExpression" relationship="CREATE">
+      <point x="1.764705883147144E-4" y="-40.5" />
+      <point x="285.184" y="237.0" />
+      <point x="239.223" y="237.0" />
+      <point x="-3.921568620057769E-5" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.DoubleExpression" target="com.activemesa.behavioral.visitor.reflective.Expression" relationship="GENERALIZATION">
+      <point x="-3.921568620057769E-5" y="-40.5" />
+      <point x="239.223" y="82.0" />
+      <point x="259.5" y="82.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.ReflectiveVisitorDemo" target="com.activemesa.behavioral.visitor.reflective.AdditionExpression" relationship="CREATE">
+      <point x="15.000176470588315" y="-40.5" />
+      <point x="300.184" y="298.0" />
+      <point x="506.223" y="298.0" />
+      <point x="-3.9215686172155984E-5" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.reflective.AdditionExpression" target="com.activemesa.behavioral.visitor.reflective.Expression" relationship="GENERALIZATION">
+      <point x="-3.9215686172155984E-5" y="-52.0" />
+      <point x="506.223" y="82.0" />
+      <point x="259.5" y="82.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="327.0" y="238.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

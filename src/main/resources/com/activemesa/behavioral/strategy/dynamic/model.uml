@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/strategy/dynamic</OriginalElement>
+  <nodes>
+    <node x="562.0" y="153.0">com.activemesa.behavioral.strategy.dynamic.TextProcessor</node>
+    <node x="281.0" y="199.5">com.activemesa.behavioral.strategy.dynamic.MarkdownListStrategy</node>
+    <node x="305.5" y="377.0">com.activemesa.behavioral.strategy.dynamic.DynamicStrategyDemo</node>
+    <node x="0.0" y="176.5">com.activemesa.behavioral.strategy.dynamic.HtmlListStrategy</node>
+    <node x="282.575" y="0.0">com.activemesa.behavioral.strategy.dynamic.ListStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.strategy.dynamic.MarkdownListStrategy" target="com.activemesa.behavioral.strategy.dynamic.ListStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-40.5" />
+      <point x="411.5" y="150.0" />
+      <point x="413.075" y="150.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.dynamic.DynamicStrategyDemo" target="com.activemesa.behavioral.strategy.dynamic.HtmlListStrategy" relationship="DEPENDENCY">
+      <point x="-106.0" y="0.0" />
+      <point x="130.5" y="417.5" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.dynamic.HtmlListStrategy" target="com.activemesa.behavioral.strategy.dynamic.ListStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="130.5" y="150.0" />
+      <point x="413.075" y="150.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.dynamic.DynamicStrategyDemo" target="com.activemesa.behavioral.strategy.dynamic.TextProcessor" relationship="CREATE">
+      <point x="106.0" y="0.0" />
+      <point x="696.0" y="417.5" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.dynamic.DynamicStrategyDemo" target="com.activemesa.behavioral.strategy.dynamic.MarkdownListStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.dynamic.TextProcessor" target="com.activemesa.behavioral.strategy.dynamic.ListStrategy" relationship="DEPENDENCY">
+      <point x="0.0" y="-87.0" />
+      <point x="696.0" y="51.5" />
+      <point x="130.50000000000006" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="415.0" y="229.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

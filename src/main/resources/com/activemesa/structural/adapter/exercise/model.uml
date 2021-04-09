@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/structural/adapter/exercise</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.activemesa.structural.adapter.exercise.Rectangle</node>
+    <node x="139.0" y="11.0">com.activemesa.structural.adapter.exercise.Square</node>
+    <node x="36.305555555555586" y="153.0">com.activemesa.structural.adapter.exercise.SquareToRectangleAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.structural.adapter.exercise.SquareToRectangleAdapter" target="com.activemesa.structural.adapter.exercise.Square" relationship="TO_ONE">
+      <point x="47.6944444444444" y="-75.5" />
+      <point x="15.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.structural.adapter.exercise.SquareToRectangleAdapter" target="com.activemesa.structural.adapter.exercise.Rectangle" relationship="REALIZATION">
+      <point x="-103.8055555555556" y="-75.5" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.activemesa.structural.adapter.exercise.SquareToRectangleAdapter" target="com.activemesa.structural.adapter.exercise.Square" relationship="DEPENDENCY">
+      <point x="32.6944444444444" y="-75.5" />
+      <point x="0.0" y="40.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="145.5" y="152.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

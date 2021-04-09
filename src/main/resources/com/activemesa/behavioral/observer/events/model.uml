@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/observer/events</OriginalElement>
+  <nodes>
+    <node x="247.0" y="215.0">com.activemesa.behavioral.observer.events.Person</node>
+    <node x="314.5" y="395.0">com.activemesa.behavioral.observer.events.HandmadeEventsDemo</node>
+    <node x="0.0" y="215.0">com.activemesa.behavioral.observer.events.Event.Subscription</node>
+    <node x="345.9227430555556" y="23.5">com.activemesa.behavioral.observer.events.PropertyChangedEventArgs</node>
+    <node x="25.9227430555556" y="0.0">com.activemesa.behavioral.observer.events.Event</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.observer.events.Event" target="com.activemesa.behavioral.observer.events.Event.Subscription" relationship="CREATE">
+      <point x="-149.9997430555556" y="0.0" />
+      <point x="-17.5" y="75.5" />
+      <point x="-17.5" y="369.0" />
+      <point x="113.5" y="369.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Person" target="com.activemesa.behavioral.observer.events.Event" relationship="CREATE">
+      <point x="0.0" y="-64.0" />
+      <point x="422.0" y="183.0" />
+      <point x="175.923" y="183.0" />
+      <point x="2.569444444020519E-4" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Event.Subscription" target="com.activemesa.behavioral.observer.events.Event" relationship="DEPENDENCY">
+      <point x="0.0" y="-64.0" />
+      <point x="113.5" y="183.0" />
+      <point x="175.923" y="183.0" />
+      <point x="2.569444444020519E-4" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.HandmadeEventsDemo" target="com.activemesa.behavioral.observer.events.Person" relationship="CREATE">
+      <point x="-15.0" y="-40.5" />
+      <point x="-15.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.HandmadeEventsDemo" target="com.activemesa.behavioral.observer.events.Event.Subscription" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="422.0" y="369.0" />
+      <point x="113.5" y="369.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Event.Subscription" target="com.activemesa.behavioral.observer.events.Event" relationship="TO_ONE">
+      <point x="-15.0" y="-64.0" />
+      <point x="98.5" y="199.0" />
+      <point x="160.923" y="199.0" />
+      <point x="-14.999743055555598" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.HandmadeEventsDemo" target="com.activemesa.behavioral.observer.events.PropertyChangedEventArgs" relationship="DEPENDENCY">
+      <point x="22.5" y="-40.5" />
+      <point x="444.5" y="369.0" />
+      <point x="614.5" y="369.0" />
+      <point x="123.5772569444444" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Event.Subscription" target="com.activemesa.behavioral.observer.events.Event" relationship="INNER_CLASS">
+      <point x="-30.0" y="-64.0" />
+      <point x="-92.4227430555556" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Person" target="com.activemesa.behavioral.observer.events.PropertyChangedEventArgs" relationship="TO_ONE">
+      <point x="68.9227430555556" y="-64.0" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Person" target="com.activemesa.behavioral.observer.events.PropertyChangedEventArgs" relationship="CREATE">
+      <point x="129.5" y="64.0" />
+      <point x="551.5" y="369.0" />
+      <point x="614.5" y="369.0" />
+      <point x="123.5772569444444" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.observer.events.Person" target="com.activemesa.behavioral.observer.events.Event" relationship="TO_ONE">
+      <point x="-123.5" y="-64.0" />
+      <point x="298.5" y="199.0" />
+      <point x="160.923" y="199.0" />
+      <point x="-14.999743055555598" y="75.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="298.5" y="238.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

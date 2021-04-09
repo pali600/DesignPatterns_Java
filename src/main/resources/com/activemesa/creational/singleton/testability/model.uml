@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/creational/singleton/testability</OriginalElement>
+  <nodes>
+    <node x="265.0" y="225.0">com.activemesa.creational.singleton.testability.SingletonTestabilityDemo</node>
+    <node x="0.0" y="225.0">com.activemesa.creational.singleton.testability.SingletonRecordFinder</node>
+    <node x="128.0" y="0.0">com.activemesa.creational.singleton.testability.SingletonDatabase</node>
+    <node x="280.0" y="458.0">com.activemesa.creational.singleton.testability.DummyDatabase</node>
+    <node x="68.66666666666666" y="351.0">com.activemesa.creational.singleton.testability.Database</node>
+    <node x="0.0" y="458.0">com.activemesa.creational.singleton.testability.ConfigurableRecordFinder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.creational.singleton.testability.ConfigurableRecordFinder" target="com.activemesa.creational.singleton.testability.Database" relationship="DEPENDENCY">
+      <point x="30.666666666666657" y="-52.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.singleton.testability.ConfigurableRecordFinder" target="com.activemesa.creational.singleton.testability.Database" relationship="TO_ONE">
+      <point x="45.66666666666666" y="-52.5" />
+      <point x="15.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.singleton.testability.DummyDatabase" target="com.activemesa.creational.singleton.testability.Database" relationship="REALIZATION">
+      <point x="0.0" y="-52.5" />
+      <point x="394.0" y="379.5" />
+      <point x="92.0" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.creational.singleton.testability.SingletonRecordFinder" target="com.activemesa.creational.singleton.testability.SingletonDatabase" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="122.5" y="200.0" />
+      <point x="251.0" y="200.0" />
+      <point x="0.0" y="87.5" />
+    </edge>
+    <edge source="com.activemesa.creational.singleton.testability.SingletonTestabilityDemo" target="com.activemesa.creational.singleton.testability.SingletonDatabase" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="379.5" y="200.0" />
+      <point x="251.0" y="200.0" />
+      <point x="0.0" y="87.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="254.0" y="281.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

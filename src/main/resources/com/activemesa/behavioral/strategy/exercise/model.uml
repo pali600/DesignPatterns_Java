@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/strategy/exercise</OriginalElement>
+  <nodes>
+    <node x="891.0795454545455" y="242.5">com.activemesa.behavioral.strategy.exercise.Pair</node>
+    <node x="365.00000000000006" y="651.0">com.activemesa.behavioral.strategy.exercise.RealDiscriminantStrategy</node>
+    <node x="0.0" y="651.0">com.activemesa.behavioral.strategy.exercise.OrdinaryDiscriminantStrategy</node>
+    <node x="730.0" y="639.0">com.activemesa.behavioral.strategy.exercise.QuadraticEquationSolver</node>
+    <node x="468.79545454545456" y="266.0">com.activemesa.behavioral.strategy.exercise.DiscriminantStrategy</node>
+    <node x="1033.0795454545455" y="0.0">com.activemesa.behavioral.strategy.exercise.Complex</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.strategy.exercise.RealDiscriminantStrategy" target="com.activemesa.behavioral.strategy.exercise.DiscriminantStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-40.5" />
+      <point x="537.5" y="630.0" />
+      <point x="641.295" y="630.0" />
+      <point x="-4.5454545454504114E-4" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.exercise.OrdinaryDiscriminantStrategy" target="com.activemesa.behavioral.strategy.exercise.DiscriminantStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-40.5" />
+      <point x="172.5" y="630.0" />
+      <point x="641.295" y="630.0" />
+      <point x="-4.5454545454504114E-4" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.exercise.QuadraticEquationSolver" target="com.activemesa.behavioral.strategy.exercise.Pair" relationship="CREATE">
+      <point x="44.579545454545496" y="-52.5" />
+      <point x="0.0" y="52.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.exercise.QuadraticEquationSolver" target="com.activemesa.behavioral.strategy.exercise.DiscriminantStrategy" relationship="DEPENDENCY">
+      <point x="-170.0" y="-52.5" />
+      <point x="96.2045454545455" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.exercise.QuadraticEquationSolver" target="com.activemesa.behavioral.strategy.exercise.Complex" relationship="CREATE">
+      <point x="170.0" y="-52.5" />
+      <point x="-73.5795454545455" y="294.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.strategy.exercise.QuadraticEquationSolver" target="com.activemesa.behavioral.strategy.exercise.DiscriminantStrategy" relationship="TO_ONE">
+      <point x="-101.2045454545455" y="-52.5" />
+      <point x="165.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="635.0000000000001" y="372.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

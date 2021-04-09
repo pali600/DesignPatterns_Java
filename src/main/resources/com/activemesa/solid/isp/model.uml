@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/solid/isp</OriginalElement>
+  <nodes>
+    <node x="121.5" y="107.0">com.activemesa.solid.isp.Machine</node>
+    <node x="415.67276422764223" y="130.0">com.activemesa.solid.isp.IScanner</node>
+    <node x="797.1727642276421" y="130.0">com.activemesa.solid.isp.Printer</node>
+    <node x="452.6875" y="0.0">com.activemesa.solid.isp.Document</node>
+    <node x="0.0" y="282.0">com.activemesa.solid.isp.OldFashionedPrinter</node>
+    <node x="844.0" y="305.0">com.activemesa.solid.isp.JustAPrinter</node>
+    <node x="656.0" y="293.5">com.activemesa.solid.isp.Photocopier</node>
+    <node x="533.6722560975609" y="471.0">com.activemesa.solid.isp.MultiFunctionMachine</node>
+    <node x="442.0" y="330.0">com.activemesa.solid.isp.MultiFunctionDevice</node>
+    <node x="215.0" y="282.0">com.activemesa.solid.isp.MultiFunctionPrinter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.solid.isp.JustAPrinter" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="0.0" y="40.5" />
+      <point x="927.5" y="440.0" />
+      <point x="1028.5" y="440.0" />
+      <point x="1028.5" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionDevice" target="com.activemesa.solid.isp.IScanner" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="39.82723577235777" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionMachine" target="com.activemesa.solid.isp.MultiFunctionDevice" relationship="REALIZATION">
+      <point x="-131.0" y="-75.5" />
+      <point x="2.172256097560876" y="15.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionMachine" target="com.activemesa.solid.isp.IScanner" relationship="TO_ONE">
+      <point x="-138.5" y="15.0" />
+      <point x="-32.5" y="561.5" />
+      <point x="-32.5" y="74.5" />
+      <point x="514.1727642276422" y="74.5" />
+      <point x="15.0" y="-28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.IScanner" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="2.3577235776883754E-4" y="28.5" />
+      <point x="499.173" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionMachine" target="com.activemesa.solid.isp.Printer" relationship="TO_ONE">
+      <point x="138.5" y="15.0" />
+      <point x="1058.5" y="561.5" />
+      <point x="1058.5" y="143.5" />
+      <point x="83.5" y="-15.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.Photocopier" target="com.activemesa.solid.isp.IScanner" relationship="REALIZATION">
+      <point x="-15.0" y="-52.0" />
+      <point x="724.5" y="158.5" />
+      <point x="83.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.Photocopier" target="com.activemesa.solid.isp.Printer" relationship="REALIZATION">
+      <point x="0.0" y="-52.0" />
+      <point x="739.5" y="254.0" />
+      <point x="833.5" y="254.0" />
+      <point x="-47.17276422764212" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionPrinter" target="com.activemesa.solid.isp.Machine" relationship="REALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="312.5" y="248.0" />
+      <point x="205.0" y="248.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionDevice" target="com.activemesa.solid.isp.Printer" relationship="INTERFACE_GENERALIZATION">
+      <point x="61.17276422764223" y="-15.5" />
+      <point x="600.1727642276422" y="173.5" />
+      <point x="-83.5" y="15.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionMachine" target="com.activemesa.solid.isp.Printer" relationship="DEPENDENCY">
+      <point x="138.5" y="0.0" />
+      <point x="1043.5" y="546.5" />
+      <point x="1043.5" y="158.5" />
+      <point x="83.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.Printer" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="2.3577235788252437E-4" y="28.5" />
+      <point x="880.673" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.OldFashionedPrinter" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="0.0" y="63.5" />
+      <point x="97.5" y="440.0" />
+      <point x="1028.5" y="440.0" />
+      <point x="1028.5" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.Machine" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="83.5" y="0.0" />
+      <point x="398.173" y="158.5" />
+      <point x="398.173" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.OldFashionedPrinter" target="com.activemesa.solid.isp.Machine" relationship="REALIZATION">
+      <point x="0.0" y="-63.5" />
+      <point x="97.5" y="248.0" />
+      <point x="205.0" y="248.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionMachine" target="com.activemesa.solid.isp.IScanner" relationship="DEPENDENCY">
+      <point x="-138.5" y="0.0" />
+      <point x="-17.5" y="546.5" />
+      <point x="-17.5" y="89.5" />
+      <point x="499.17276422764223" y="89.5" />
+      <point x="0.0" y="-28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.JustAPrinter" target="com.activemesa.solid.isp.Printer" relationship="REALIZATION">
+      <point x="0.0" y="-40.5" />
+      <point x="927.5" y="254.0" />
+      <point x="833.5" y="254.0" />
+      <point x="-47.17276422764212" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionMachine" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="-2.560975608503213E-4" y="-75.5" />
+      <point x="672.172" y="440.0" />
+      <point x="1028.5" y="440.0" />
+      <point x="1028.5" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.MultiFunctionPrinter" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="0.0" y="63.5" />
+      <point x="312.5" y="440.0" />
+      <point x="1028.5" y="440.0" />
+      <point x="1028.5" y="214.0" />
+      <point x="620.0" y="214.0" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.solid.isp.Photocopier" target="com.activemesa.solid.isp.Document" relationship="DEPENDENCY">
+      <point x="-83.5" y="-38.0" />
+      <point x="620.0" y="307.5" />
+      <point x="620.0" y="28.5" />
+      <point x="62.00049999999999" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="513.0000000000001" y="311.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

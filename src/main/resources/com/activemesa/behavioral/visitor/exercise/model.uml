@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/behavioral/visitor/exercise</OriginalElement>
+  <nodes>
+    <node x="407.1740740740741" y="0.0">com.activemesa.behavioral.visitor.exercise.Expression</node>
+    <node x="239.25" y="516.0">com.activemesa.behavioral.visitor.exercise.Value</node>
+    <node x="286.0" y="335.0">com.activemesa.behavioral.visitor.exercise.ExpressionVisitor</node>
+    <node x="325.5" y="143.0">com.activemesa.behavioral.visitor.exercise.MultiplicationExpression</node>
+    <node x="10.5" y="143.0">com.activemesa.behavioral.visitor.exercise.AdditionExpression</node>
+    <node x="286.0" y="673.0">com.activemesa.behavioral.visitor.exercise.ExpressionPrinter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionPrinter" target="com.activemesa.behavioral.visitor.exercise.Value" relationship="DEPENDENCY">
+      <point x="0.0" y="-87.0" />
+      <point x="406.5" y="647.0" />
+      <point x="347.25" y="647.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.MultiplicationExpression" target="com.activemesa.behavioral.visitor.exercise.Expression" relationship="GENERALIZATION">
+      <point x="-154.5" y="-64.0" />
+      <point x="333.0" y="128.0" />
+      <point x="530.174" y="128.0" />
+      <point x="14.999925925925936" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.Value" target="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="-108.0" y="0.0" />
+      <point x="-7.0" y="568.5" />
+      <point x="-7.0" y="398.5" />
+      <point x="-120.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" target="com.activemesa.behavioral.visitor.exercise.Value" relationship="DEPENDENCY">
+      <point x="66.25" y="63.5" />
+      <point x="472.75" y="647.0" />
+      <point x="347.25" y="647.0" />
+      <point x="0.0" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.Expression" target="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="-7.407407406390121E-5" y="40.5" />
+      <point x="515.174" y="112.0" />
+      <point x="-7.0" y="112.0" />
+      <point x="-7.0" y="398.5" />
+      <point x="-120.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.MultiplicationExpression" target="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="0.0" y="-64.0" />
+      <point x="487.5" y="112.0" />
+      <point x="-7.0" y="112.0" />
+      <point x="-7.0" y="398.5" />
+      <point x="-120.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" target="com.activemesa.behavioral.visitor.exercise.MultiplicationExpression" relationship="DEPENDENCY">
+      <point x="120.5" y="0.0" />
+      <point x="606.0" y="398.5" />
+      <point x="606.0" y="303.0" />
+      <point x="559.5" y="303.0" />
+      <point x="72.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionPrinter" target="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" relationship="GENERALIZATION">
+      <point x="81.25" y="-87.0" />
+      <point x="81.25" y="63.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.AdditionExpression" target="com.activemesa.behavioral.visitor.exercise.Expression" relationship="TO_ONE">
+      <point x="15.0" y="-64.0" />
+      <point x="173.0" y="97.0" />
+      <point x="500.174" y="97.0" />
+      <point x="-15.000074074074064" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.MultiplicationExpression" target="com.activemesa.behavioral.visitor.exercise.Expression" relationship="TO_ONE">
+      <point x="-15.0" y="-64.0" />
+      <point x="472.5" y="97.0" />
+      <point x="500.174" y="97.0" />
+      <point x="-15.000074074074064" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionPrinter" target="com.activemesa.behavioral.visitor.exercise.AdditionExpression" relationship="DEPENDENCY">
+      <point x="120.5" y="0.0" />
+      <point x="544.5" y="760.0" />
+      <point x="544.5" y="303.0" />
+      <point x="158.0" y="303.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionPrinter" target="com.activemesa.behavioral.visitor.exercise.MultiplicationExpression" relationship="DEPENDENCY">
+      <point x="120.5" y="-15.0" />
+      <point x="606.0" y="745.0" />
+      <point x="606.0" y="303.0" />
+      <point x="559.5" y="303.0" />
+      <point x="72.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.Value" target="com.activemesa.behavioral.visitor.exercise.Expression" relationship="GENERALIZATION">
+      <point x="108.0" y="0.0" />
+      <point x="667.0" y="568.5" />
+      <point x="667.0" y="128.0" />
+      <point x="530.174" y="128.0" />
+      <point x="14.999925925925936" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.AdditionExpression" target="com.activemesa.behavioral.visitor.exercise.Expression" relationship="GENERALIZATION">
+      <point x="-15.0" y="-64.0" />
+      <point x="143.0" y="128.0" />
+      <point x="530.174" y="128.0" />
+      <point x="14.999925925925936" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.AdditionExpression" target="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" relationship="DEPENDENCY">
+      <point x="0.0" y="-64.0" />
+      <point x="158.0" y="112.0" />
+      <point x="-7.0" y="112.0" />
+      <point x="-7.0" y="398.5" />
+      <point x="-120.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.behavioral.visitor.exercise.ExpressionVisitor" target="com.activemesa.behavioral.visitor.exercise.AdditionExpression" relationship="DEPENDENCY">
+      <point x="0.0" y="-63.5" />
+      <point x="406.5" y="303.0" />
+      <point x="158.0" y="303.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="330.5" y="423.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/creational/factories</OriginalElement>
+  <nodes>
+    <node x="438.30260416666664" y="455.0">com.activemesa.creational.factories.HotDrinkMachine.AvailableDrink</node>
+    <node x="208.3973958333333" y="117.0">com.activemesa.creational.factories.Tea</node>
+    <node x="270.0718750000001" y="0.0">com.activemesa.creational.factories.IHotDrink</node>
+    <node x="0.0" y="117.0">com.activemesa.creational.factories.Coffee</node>
+    <node x="24.5" y="285.0">com.activemesa.creational.factories.CoffeeFactory</node>
+    <node x="571.3208333333334" y="658.0">com.activemesa.creational.factories.AbstractFactoryDemo</node>
+    <node x="124.20277777777778" y="985.0">com.activemesa.creational.factories.Point</node>
+    <node x="260.5777777777778" y="784.0">com.activemesa.creational.factories.CoordinateSystem</node>
+    <node x="295.0" y="1234.0">com.activemesa.creational.factories.PointFactory</node>
+    <node x="410.5" y="250.0">com.activemesa.creational.factories.HotDrinkMachine</node>
+    <node x="435.00260416666663" y="129.0">com.activemesa.creational.factories.IHotDrinkFactory</node>
+    <node x="423.27500000000003" y="1367.0">com.activemesa.creational.factories.FactoryDemo</node>
+    <node x="217.5" y="285.0">com.activemesa.creational.factories.TeaFactory</node>
+    <node x="0.0" y="1234.0">com.activemesa.creational.factories.Point.Factory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.creational.factories.Coffee" target="com.activemesa.creational.factories.IHotDrink" relationship="REALIZATION">
+      <point x="0.0" y="-40.5" />
+      <point x="67.0" y="87.0" />
+      <point x="337.072" y="87.0" />
+      <point x="1.2499999991177901E-4" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.PointFactory" target="com.activemesa.creational.factories.Point" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="432.5" y="1208.0" />
+      <point x="263.703" y="1208.0" />
+      <point x="2.2222222219170362E-4" y="98.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.AbstractFactoryDemo" target="com.activemesa.creational.factories.IHotDrink" relationship="DEPENDENCY">
+      <point x="101.00016666666659" y="0.0" />
+      <point x="790.821" y="698.5" />
+      <point x="790.821" y="224.0" />
+      <point x="396.572" y="224.0" />
+      <point x="59.50012499999991" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.TeaFactory" target="com.activemesa.creational.factories.Tea" relationship="CREATE">
+      <point x="-30.0" y="-40.5" />
+      <point x="-1.3973958333332916" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.Point.Factory" target="com.activemesa.creational.factories.Point" relationship="INNER_CLASS">
+      <point x="111.20299999999997" y="-40.5" />
+      <point x="-14.999777777777808" y="98.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.CoffeeFactory" target="com.activemesa.creational.factories.IHotDrinkFactory" relationship="REALIZATION">
+      <point x="-15.0" y="-40.5" />
+      <point x="96.0" y="255.0" />
+      <point x="359.897" y="255.0" />
+      <point x="359.897" y="157.5" />
+      <point x="-86.49960416666664" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.CoffeeFactory" target="com.activemesa.creational.factories.Coffee" relationship="CREATE">
+      <point x="-44.0" y="-40.5" />
+      <point x="0.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.HotDrinkMachine.AvailableDrink" target="com.activemesa.creational.factories.HotDrinkMachine" relationship="INNER_CLASS">
+      <point x="38.1973958333333" y="-75.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.Tea" target="com.activemesa.creational.factories.IHotDrink" relationship="REALIZATION">
+      <point x="-3.9583333330028836E-4" y="-40.5" />
+      <point x="275.397" y="87.0" />
+      <point x="337.072" y="87.0" />
+      <point x="1.2499999991177901E-4" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.HotDrinkMachine" target="com.activemesa.creational.factories.IHotDrinkFactory" relationship="TO_MANY">
+      <point x="15.0" y="-75.5" />
+      <point x="76.49739583333337" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.FactoryDemo" target="com.activemesa.creational.factories.CoordinateSystem" relationship="DEPENDENCY">
+      <point x="75.99999999999994" y="-15.0" />
+      <point x="623.5" y="1392.5" />
+      <point x="623.5" y="960.0" />
+      <point x="378.078" y="960.0" />
+      <point x="2.2222222219170362E-4" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.Point.Factory" target="com.activemesa.creational.factories.Point" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="137.5" y="1208.0" />
+      <point x="263.703" y="1208.0" />
+      <point x="2.2222222219170362E-4" y="98.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.TeaFactory" target="com.activemesa.creational.factories.IHotDrinkFactory" relationship="REALIZATION">
+      <point x="-15.0" y="-40.5" />
+      <point x="289.0" y="255.0" />
+      <point x="359.897" y="255.0" />
+      <point x="359.897" y="157.5" />
+      <point x="-86.49960416666664" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.HotDrinkMachine" target="com.activemesa.creational.factories.IHotDrinkFactory" relationship="DEPENDENCY">
+      <point x="-15.0" y="-75.5" />
+      <point x="46.49739583333337" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.CoffeeFactory" target="com.activemesa.creational.factories.IHotDrink" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="111.0" y="224.0" />
+      <point x="396.572" y="224.0" />
+      <point x="59.50012499999991" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.HotDrinkMachine" target="com.activemesa.creational.factories.HotDrinkMachine.AvailableDrink" relationship="TO_MANY">
+      <point x="15.0" y="75.5" />
+      <point x="53.1973958333333" y="-75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.HotDrinkMachine" target="com.activemesa.creational.factories.HotDrinkMachine.AvailableDrink" relationship="DEPENDENCY">
+      <point x="-162.197" y="75.5" />
+      <point x="420.803" y="632.0" />
+      <point x="544.803" y="632.0" />
+      <point x="3.9583333330028836E-4" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.IHotDrinkFactory" target="com.activemesa.creational.factories.IHotDrink" relationship="DEPENDENCY">
+      <point x="3.958333334139752E-4" y="28.5" />
+      <point x="521.503" y="224.0" />
+      <point x="396.572" y="224.0" />
+      <point x="59.50012499999991" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.AbstractFactoryDemo" target="com.activemesa.creational.factories.HotDrinkMachine" relationship="CREATE">
+      <point x="15.000166666666587" y="-40.5" />
+      <point x="104.32100000000003" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.HotDrinkMachine" target="com.activemesa.creational.factories.IHotDrink" relationship="DEPENDENCY">
+      <point x="0.0" y="-75.5" />
+      <point x="583.0" y="224.0" />
+      <point x="396.572" y="224.0" />
+      <point x="59.50012499999991" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.Point" target="com.activemesa.creational.factories.CoordinateSystem" relationship="DEPENDENCY">
+      <point x="2.2222222219170362E-4" y="-98.5" />
+      <point x="263.703" y="960.0" />
+      <point x="378.078" y="960.0" />
+      <point x="2.2222222219170362E-4" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.FactoryDemo" target="com.activemesa.creational.factories.Point.Factory" relationship="DEPENDENCY">
+      <point x="-76.0" y="0.0" />
+      <point x="137.5" y="1407.5" />
+      <point x="0.0" y="40.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.AbstractFactoryDemo" target="com.activemesa.creational.factories.HotDrinkMachine.AvailableDrink" relationship="DEPENDENCY">
+      <point x="1.666666665869343E-4" y="-40.5" />
+      <point x="672.321" y="632.0" />
+      <point x="544.803" y="632.0" />
+      <point x="3.9583333330028836E-4" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.TeaFactory" target="com.activemesa.creational.factories.IHotDrink" relationship="DEPENDENCY">
+      <point x="0.0" y="-40.5" />
+      <point x="304.0" y="224.0" />
+      <point x="396.572" y="224.0" />
+      <point x="59.50012499999991" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.creational.factories.FactoryDemo" target="com.activemesa.creational.factories.Point" relationship="CREATE">
+      <point x="75.99999999999994" y="0.0" />
+      <point x="592.775" y="1407.5" />
+      <point x="592.775" y="1208.0" />
+      <point x="263.703" y="1208.0" />
+      <point x="2.2222222219170362E-4" y="98.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="395.5000000000001" y="283.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/structural/decorator</OriginalElement>
+  <nodes>
+    <node x="441.0" y="0.0">com.activemesa.structural.decorator.ad.MyStringBuilder</node>
+    <node x="0.0" y="0.0">com.activemesa.structural.decorator.MagicString</node>
+    <node x="60.874999999999986" y="2139.0">com.activemesa.structural.decorator.exercise.Dragon</node>
+    <node x="1100.0" y="128.5">com.activemesa.structural.decorator.statik.TransparentShape</node>
+    <node x="2243.0" y="117.0">com.activemesa.structural.decorator.dynamic.Circle</node>
+    <node x="2093.020833333333" y="318.0">com.activemesa.structural.decorator.dynamic.DynamicDecoratorDemo</node>
+    <node x="955.0" y="128.5">com.activemesa.structural.decorator.statik.Square</node>
+    <node x="0.0" y="1984.0">com.activemesa.structural.decorator.exercise.Bird</node>
+    <node x="1043.7291666666667" y="318.0">com.activemesa.structural.decorator.statik.StaticDecoratorDemo</node>
+    <node x="2003.9999999999998" y="128.5">com.activemesa.structural.decorator.dynamic.TransparentShape</node>
+    <node x="2019.6249999999998" y="0.0">com.activemesa.structural.decorator.dynamic.Shape</node>
+    <node x="2405.0" y="128.5">com.activemesa.structural.decorator.dynamic.Square</node>
+    <node x="1265.875" y="0.0">com.activemesa.structural.decorator.statik.Shape</node>
+    <node x="1771.0" y="128.5">com.activemesa.structural.decorator.dynamic.ColoredShape</node>
+    <node x="122.0" y="1858.0">com.activemesa.structural.decorator.Demo</node>
+    <node x="125.99999999999999" y="1984.0">com.activemesa.structural.decorator.exercise.Lizard</node>
+    <node x="1426.0" y="128.5">com.activemesa.structural.decorator.statik.ColoredShape</node>
+    <node x="793.0" y="117.0">com.activemesa.structural.decorator.statik.Circle</node>
+    <node x="485.5" y="1398.0">com.activemesa.structural.decorator.ad.AdapterDecoratorDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.structural.decorator.dynamic.Circle" target="com.activemesa.structural.decorator.dynamic.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-75.5" />
+      <point x="2314.0" y="87.0" />
+      <point x="2076.625" y="87.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.StaticDecoratorDemo" target="com.activemesa.structural.decorator.statik.ColoredShape" relationship="CREATE">
+      <point x="100.0" y="0.0" />
+      <point x="1576.0" y="358.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.DynamicDecoratorDemo" target="com.activemesa.structural.decorator.dynamic.ColoredShape" relationship="CREATE">
+      <point x="-112.0" y="0.0" />
+      <point x="1877.5" y="358.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.exercise.Dragon" target="com.activemesa.structural.decorator.exercise.Bird" relationship="CREATE">
+      <point x="-23.874999999999986" y="-87.5" />
+      <point x="45.5" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.DynamicDecoratorDemo" target="com.activemesa.structural.decorator.dynamic.Square" relationship="CREATE">
+      <point x="112.0" y="0.0" />
+      <point x="2467.5" y="358.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.StaticDecoratorDemo" target="com.activemesa.structural.decorator.statik.Circle" relationship="CREATE">
+      <point x="-100.0" y="0.0" />
+      <point x="864.0" y="358.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.Square" target="com.activemesa.structural.decorator.statik.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="1017.5" y="108.0" />
+      <point x="1322.875" y="108.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.Demo" target="com.activemesa.structural.decorator.MagicString" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="904.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.StaticDecoratorDemo" target="com.activemesa.structural.decorator.statik.TransparentShape" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="-109.27083333333326" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.exercise.Dragon" target="com.activemesa.structural.decorator.exercise.Bird" relationship="TO_ONE">
+      <point x="-54.0" y="-87.5" />
+      <point x="15.374999999999986" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.DynamicDecoratorDemo" target="com.activemesa.structural.decorator.dynamic.Circle" relationship="CREATE">
+      <point x="104.5" y="-40.5" />
+      <point x="-4.47916666666697" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.ColoredShape" target="com.activemesa.structural.decorator.statik.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="1576.0" y="108.0" />
+      <point x="1322.875" y="108.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.Circle" target="com.activemesa.structural.decorator.statik.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-75.5" />
+      <point x="864.0" y="88.5" />
+      <point x="1322.875" y="88.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.ad.AdapterDecoratorDemo" target="com.activemesa.structural.decorator.ad.MyStringBuilder" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="674.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.ColoredShape" target="com.activemesa.structural.decorator.statik.Shape" relationship="TO_ONE">
+      <point x="15.0" y="-64.0" />
+      <point x="1591.0" y="84.0" />
+      <point x="1345.5" y="84.0" />
+      <point x="22.625" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.DynamicDecoratorDemo" target="com.activemesa.structural.decorator.dynamic.TransparentShape" relationship="CREATE">
+      <point x="-91.52083333333303" y="-40.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.exercise.Dragon" target="com.activemesa.structural.decorator.exercise.Lizard" relationship="CREATE">
+      <point x="54.000000000000014" y="-87.5" />
+      <point x="-11.125" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.ColoredShape" target="com.activemesa.structural.decorator.dynamic.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="1877.5" y="87.0" />
+      <point x="2076.625" y="87.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.TransparentShape" target="com.activemesa.structural.decorator.statik.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="1253.0" y="108.0" />
+      <point x="1322.875" y="108.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.ColoredShape" target="com.activemesa.structural.decorator.dynamic.Shape" relationship="TO_ONE">
+      <point x="-15.0" y="-64.0" />
+      <point x="1862.5" y="108.0" />
+      <point x="2061.625" y="108.0" />
+      <point x="-15.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.TransparentShape" target="com.activemesa.structural.decorator.statik.Shape" relationship="TO_ONE">
+      <point x="92.5" y="-64.0" />
+      <point x="22.625" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.Square" target="com.activemesa.structural.decorator.dynamic.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="2467.5" y="87.0" />
+      <point x="2076.625" y="87.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.TransparentShape" target="com.activemesa.structural.decorator.dynamic.Shape" relationship="TO_ONE">
+      <point x="-15.0" y="-64.0" />
+      <point x="2098.5" y="108.0" />
+      <point x="2061.625" y="108.0" />
+      <point x="-15.0" y="28.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.exercise.Dragon" target="com.activemesa.structural.decorator.exercise.Lizard" relationship="TO_ONE">
+      <point x="11.125000000000014" y="-87.5" />
+      <point x="-54.0" y="52.5" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.statik.StaticDecoratorDemo" target="com.activemesa.structural.decorator.statik.Square" relationship="CREATE">
+      <point x="-92.5" y="-40.5" />
+      <point x="33.72916666666674" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.structural.decorator.dynamic.TransparentShape" target="com.activemesa.structural.decorator.dynamic.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-64.0" />
+      <point x="2113.5" y="87.0" />
+      <point x="2076.625" y="87.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="160.5" y="283.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

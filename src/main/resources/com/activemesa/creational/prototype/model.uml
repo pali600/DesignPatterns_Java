@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/kecskemetip/Development/DesignPatterns_Java/src/main/java/com/activemesa/creational/prototype</OriginalElement>
+  <nodes>
+    <node x="67.5" y="553.0">com.activemesa.creational.prototype.copyserial.Foo</node>
+    <node x="373.5" y="404.0">com.activemesa.creational.prototype.CloneableDemo</node>
+    <node x="351.0" y="0.0">com.activemesa.creational.prototype.Address</node>
+    <node x="0.0" y="731.0">com.activemesa.creational.prototype.copyserial.CopyThroughSerializationDemo</node>
+    <node x="50.25" y="427.0">com.activemesa.creational.prototype.copyconstructor.CopyConstructorDemo</node>
+    <node x="21.75" y="0.0">com.activemesa.creational.prototype.copyconstructor.Address</node>
+    <node x="305.25" y="201.0">com.activemesa.creational.prototype.Person</node>
+    <node x="0.0" y="224.0">com.activemesa.creational.prototype.copyconstructor.Employee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.activemesa.creational.prototype.copyconstructor.Employee" target="com.activemesa.creational.prototype.copyconstructor.Address" relationship="TO_ONE">
+      <point x="-15.0" y="-75.5" />
+      <point x="-45.25" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.copyconstructor.CopyConstructorDemo" target="com.activemesa.creational.prototype.copyconstructor.Address" relationship="CREATE">
+      <point x="62.25" y="-40.5" />
+      <point x="217.5" y="199.0" />
+      <point x="130.25" y="199.0" />
+      <point x="0.0" y="87.0" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.Person" target="com.activemesa.creational.prototype.Address" relationship="DEPENDENCY">
+      <point x="96.0" y="0.0" />
+      <point x="519.0" y="276.5" />
+      <point x="519.0" y="277.5" />
+      <point x="553.0" y="277.5" />
+      <point x="553.0" y="75.5" />
+      <point x="79.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.CloneableDemo" target="com.activemesa.creational.prototype.Address" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="454.5" y="369.5" />
+      <point x="519.0" y="369.5" />
+      <point x="519.0" y="277.5" />
+      <point x="553.0" y="277.5" />
+      <point x="553.0" y="75.5" />
+      <point x="79.5" y="0.0" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.copyconstructor.CopyConstructorDemo" target="com.activemesa.creational.prototype.copyconstructor.Employee" relationship="CREATE">
+      <point x="-55.25" y="-40.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.copyserial.CopyThroughSerializationDemo" target="com.activemesa.creational.prototype.copyserial.Foo" relationship="CREATE">
+      <point x="0.0" y="-40.5" />
+      <point x="0.0" y="64.0" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.CloneableDemo" target="com.activemesa.creational.prototype.Person" relationship="CREATE">
+      <point x="-53.25" y="-40.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.Person" target="com.activemesa.creational.prototype.Address" relationship="TO_ONE">
+      <point x="29.25" y="-75.5" />
+      <point x="0.0" y="75.5" />
+    </edge>
+    <edge source="com.activemesa.creational.prototype.copyconstructor.Employee" target="com.activemesa.creational.prototype.copyconstructor.Address" relationship="CREATE">
+      <point x="0.0" y="-75.5" />
+      <point x="100.0" y="199.0" />
+      <point x="130.25" y="199.0" />
+      <point x="0.0" y="87.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="290.4999999999999" y="405.99999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
